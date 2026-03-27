@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Audio
+*.wav
+*.mp3
+
+# Models & Binaries (Local copies)
+models/
+piper/
+*.onnx
+*.json
+*.tar.gz
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Agent Artifacts (if any)
+.agent/
+.gemini/
+.system_generated/
+brain/
+ implementation_plan.md
+ task.md
+ walkthrough.md
