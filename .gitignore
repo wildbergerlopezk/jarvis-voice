@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Audio Files
+*.wav
+*.mp3
+
+# Models and Binaries (Large Files)
+models/
+piper/
+*.onnx
+*.json
+*.tar.gz
+*.bin
+
+# Environment variables
+.env
